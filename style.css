@@ -1,0 +1,117 @@
+html {
+    background-color: mintcream;
+    font-family: 'Barlow', sans-serif;
+
+
+}
+
+
+body{
+    margin: 0;
+}
+
+/*Header*/
+
+.fix-title {
+    height: 50px;
+    margin: 0;
+}
+.page-title {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    color:white;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+/*Nav*/
+
+.navigation {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul {
+    padding: 0;
+}
+.navigation li {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    font-size: 1.3rem;
+    background-color: green;
+    border: 5px solid red;
+    padding: 0;
+;
+ }
+a {
+    text-decoration: none;
+    color:black;
+}
+
+/*body*/
+
+.text-bod {
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.text-bod p {
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid red;
+
+
+}
+
+.img-bod  {
+    display:flex;
+}
+
+.img-bod img {
+    width: 50%;
+    height: 100%;
+}
+
+.show-me-div {
+    background-color: mintcream;
+}
+
+.show-me {
+    position: relative;
+    background-color: cornflowerblue;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    bottom: 20px;
+
+}
+
+/*Footer*/
+
+ .fotopie {
+     display: flex;
+     align-items: center;
+     background-color: white;
+     border: 2px solid black;
+     margin: 15px;
+     justify-content: center;
+
+ }
+ .fotopie img {
+     width: 15%;
+ }
+ .fotopie p {
+     padding-left: 5%;
+ }
