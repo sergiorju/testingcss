@@ -10,6 +10,37 @@ body{
     margin: 0;
 }
 
+/*backdrop*/
+
+.backdrop {
+    display: none;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    background: white;
+    padding: 10px;
+    width: 260px;
+    top: 100px;
+    left: calc(50% - 140px);
+    z-index: 1;
+}
+
+.modal button {
+    background: orange;
+    color:white;
+}
+
+.modal button:hover, .modal button:active{
+    background: orangered;
+}
 /*Header*/
 
 .fix-title {
@@ -47,11 +78,14 @@ body{
     background-color: green;
     border: 5px solid red;
     padding: 0;
-;
- }
+}
 a {
     text-decoration: none;
     color:black;
+}
+
+a:active {
+    color: red;
 }
 
 /*body*/
@@ -103,6 +137,7 @@ a {
  .fotopie {
      display: flex;
      align-items: center;
+     flex-wrap: wrap;
      background-color: white;
      border: 2px solid black;
      margin: 15px;
