@@ -1,4 +1,4 @@
-var imageF = document.querySelector('.imgur');
+var imageF = document.querySelectorAll('.imgur');
 var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal');
 
@@ -12,6 +12,9 @@ function closeModal() {
     modal.style.display = 'none';
 
 }
-imageF.onclick = openModal;
-backdrop.onclick = closeModal;
+
+for (var i = 0; i < imageF.length; i++) {
+    imageF[i].addEventListener("click", openModal);
+}
+backdrop.addEventListener("click", closeModal);
 modal.onclick = closeModal;

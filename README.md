@@ -1,2 +1,2 @@
 # testingcss
-Learning CSS
+Learning CSS and JS
